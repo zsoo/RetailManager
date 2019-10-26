@@ -18,7 +18,7 @@ using RetailDataManager.Providers;
 using RetailDataManager.Results;
 
 namespace RetailDataManager.Controllers
-{
+{   [Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {

@@ -9,6 +9,7 @@ namespace RetailDataManager.Controllers
 {
     public class ValuesController : ApiController
     {
+        [Authorize]
         // GET api/values
         public IEnumerable<string> Get()
         {
